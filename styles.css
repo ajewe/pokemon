@@ -1,0 +1,16 @@
+ul {
+  display: inline-block;
+  list-style: none;
+  width: 100px;
+  text-align: left;
+  margin: 20px;
+}
+
+p {
+  display: inline-block;
+  font-weight: bold;
+}
+
+button {
+  margin-left: 70px;
+}
