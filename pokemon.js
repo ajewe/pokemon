@@ -24,7 +24,6 @@ const getRandomPokemon2 = () => {
 }
 
 const getPokemon1 = () => {
-
   const pokemon1 = document.getElementById('pokemon1')
   const li = document.createElement('li')
   const pic = document.createElement('img')
@@ -41,15 +40,15 @@ const getPokemon1 = () => {
 
 const getPokemon2 = () => {
 
-  const pokemon1 = document.getElementById('pokemon1')
+  const pokemon2 = document.getElementById('pokemon2')
   const li = document.createElement('li')
   const pic = document.createElement('img')
-  const text = document.createTextNode(`Name: ${pokeObj1.species.name}, Type: ${pokeObj1.types[0].type.name}, Weight: ${pokeObj1.weight}`)
+  const text = document.createTextNode(`Name: ${pokeObj2.species.name}, Type: ${pokeObj2.types[0].type.name}, Weight: ${pokeObj2.weight}`)
   
-  pic.src = pokeObj1.sprites.front_default
+  pic.src = pokeObj2.sprites.front_default
   
   li.appendChild(pic)
 
-  pokemon1.append(li);
-  pokemon1.append(text);
+  pokemon2.append(li);
+  pokemon2.append(text);
 }
